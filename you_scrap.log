@@ -1,0 +1,328 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:40:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:40:22] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:40:22] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:40:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:43:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:43:45] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:43:45] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+ERROR:yt_s_app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:44:14] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:49:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:49:07] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:49:07] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+ERROR:yt_s_app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:49:34] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=111.0.5563.65)
+Stacktrace:
+Backtrace:
+	(No symbol) [0x0073DCE3]
+	(No symbol) [0x006D39D1]
+	(No symbol) [0x005E4DA8]
+	(No symbol) [0x005CD0D3]
+	(No symbol) [0x0062EA8B]
+	(No symbol) [0x0063D093]
+	(No symbol) [0x0062ACC6]
+	(No symbol) [0x00606F68]
+	(No symbol) [0x006080CD]
+	GetHandleVerifier [0x009B3832+2506274]
+	GetHandleVerifier [0x009E9794+2727300]
+	GetHandleVerifier [0x009EE36C+2746716]
+	GetHandleVerifier [0x007E6690+617600]
+	(No symbol) [0x006DC712]
+	(No symbol) [0x006E1FF8]
+	(No symbol) [0x006E20DB]
+	(No symbol) [0x006EC63B]
+	BaseThreadInitThunk [0x776E00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77947BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77947B8E+238]
+
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:51:53] "POST /review HTTP/1.1" 200 -
+ERROR:yt_s_app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:52:21] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:yt_s_app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:55:00] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:'str' object cannot be interpreted as an integer
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:55:33] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:yt_s_app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2023 17:56:29] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 13:12:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 13:12:11] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 13:12:11] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 13:12:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:yt_s_app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 13:13:39] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:28:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:28:23] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:28:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+ERROR:yt_s_app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:29:00] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:30:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:30:12] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:30:12] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+ERROR:yt_s_app:Exception on /review [POST]
+Traceback (most recent call last):
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1826, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 1845, in finalize_request
+    response = self.make_response(rv)
+  File "C:\Users\GURU\AppData\Local\Programs\Python\Python310\lib\site-packages\flask\app.py", line 2137, in make_response
+    raise TypeError(
+TypeError: The view function for 'index' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:30:45] "[35m[1mPOST /review HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:name 'reviews' is not defined
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:39:03] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:40:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:40:16] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:40:16] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:41:22] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:41:22] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 16:41:22] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWGBtPVQCXcUM1DiCpOeszoKAsQ', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '53K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByRUwFQYHPXlsq0XinNUla0MZtNw', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOhnoOmjXFZyCKcKSm5Q-ZERlrZQ', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxv8xtxXYKf6Zn58zMFt2mqVTTZw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9baY1YtDSZafi5-Ej4K4ehDrL_A', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=46CNHP9wBAs', 'Image Link': 'https://i.ytimg.com/vi/46CNHP9wBAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjvT3nT1waDnGZ0G3r-csPJeQF9w', 'Video Title': 'Complete \U0001d5d4\U0001d5d6\U0001d5dc\U0001d5d7, \U0001d5d5\U0001d5d4\U0001d5e6\U0001d5d8\U0001d5e6 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5e6\U0001d5d4\U0001d5df\U0001d5e7 in 110 Minutes | Class 10th Board Exam', 'Video Views': '18K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=1Wk5gJtZ2sQ', 'Image Link': 'https://i.ytimg.com/vi/1Wk5gJtZ2sQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3qe5Gqbz5v_KD1pUUfRWeb60VHQ', 'Video Title': 'Complete \U0001d5d6\U0001d5db\U0001d5d8\U0001d5e0\U0001d5dc\U0001d5d6\U0001d5d4\U0001d5df \U0001d5e5\U0001d5d8\U0001d5d4\U0001d5d6\U0001d5e7\U0001d5dc\U0001d5e2\U0001d5e1 in 90 Minutes | Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=iM_hVnElC-Q', 'Image Link': 'https://i.ytimg.com/vi/iM_hVnElC-Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLOHeUia6L1Ui7ad9_DkhIAUwI7A', 'Video Title': 'Complete \U0001d407\U0001d404\U0001d411\U0001d404\U0001d403\U0001d408\U0001d413\U0001d418 \U0001d400\U0001d40d\U0001d403 \U0001d404\U0001d415\U0001d40e\U0001d40b\U0001d414\U0001d413\U0001d408\U0001d40e\U0001d40d in 2 Hours|| Class 10th Board Exam', 'Video Views': '60K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=Prly9d7LoAQ', 'Image Link': 'https://i.ytimg.com/vi/Prly9d7LoAQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIzYvUsJx3fu9nvhvEUNn1RR8iUg', 'Video Title': 'Complete \U0001d5db\U0001d5e2\U0001d5ea \U0001d5d7\U0001d5e2 \U0001d5e2\U0001d5e5\U0001d5da\U0001d5d4\U0001d5e1\U0001d5dc\U0001d5e6\U0001d5e0\U0001d5e6 \U0001d5e5\U0001d5d8\U0001d5e3\U0001d5e5\U0001d5e2\U0001d5d7\U0001d5e8\U0001d5d6\U0001d5d8 in 1 Hours 50 Minutes|| Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=AvwBDiCWSEM', 'Image Link': 'https://i.ytimg.com/vi/AvwBDiCWSEM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDMpZ0M1O---QujzviCqa_O_uybxQ', 'Video Title': 'Complete \U0001d5e2\U0001d5e8\U0001d5e5 \U0001d5d8\U0001d5e1\U0001d5e9\U0001d5dc\U0001d5e5\U0001d5e2\U0001d5e1\U0001d5e0\U0001d5d8\U0001d5e1\U0001d5e7 in 1 Hour 30 Minutes | Class 10th Board Exam', 'Video Views': '43K views', 'Video Date': '8 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:10:59] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:10:59] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:10:59] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWGBtPVQCXcUM1DiCpOeszoKAsQ', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '53K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByRUwFQYHPXlsq0XinNUla0MZtNw', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOhnoOmjXFZyCKcKSm5Q-ZERlrZQ', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxv8xtxXYKf6Zn58zMFt2mqVTTZw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9baY1YtDSZafi5-Ej4K4ehDrL_A', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=46CNHP9wBAs', 'Image Link': 'https://i.ytimg.com/vi/46CNHP9wBAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjvT3nT1waDnGZ0G3r-csPJeQF9w', 'Video Title': 'Complete \U0001d5d4\U0001d5d6\U0001d5dc\U0001d5d7, \U0001d5d5\U0001d5d4\U0001d5e6\U0001d5d8\U0001d5e6 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5e6\U0001d5d4\U0001d5df\U0001d5e7 in 110 Minutes | Class 10th Board Exam', 'Video Views': '18K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=1Wk5gJtZ2sQ', 'Image Link': 'https://i.ytimg.com/vi/1Wk5gJtZ2sQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3qe5Gqbz5v_KD1pUUfRWeb60VHQ', 'Video Title': 'Complete \U0001d5d6\U0001d5db\U0001d5d8\U0001d5e0\U0001d5dc\U0001d5d6\U0001d5d4\U0001d5df \U0001d5e5\U0001d5d8\U0001d5d4\U0001d5d6\U0001d5e7\U0001d5dc\U0001d5e2\U0001d5e1 in 90 Minutes | Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=iM_hVnElC-Q', 'Image Link': 'https://i.ytimg.com/vi/iM_hVnElC-Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLOHeUia6L1Ui7ad9_DkhIAUwI7A', 'Video Title': 'Complete \U0001d407\U0001d404\U0001d411\U0001d404\U0001d403\U0001d408\U0001d413\U0001d418 \U0001d400\U0001d40d\U0001d403 \U0001d404\U0001d415\U0001d40e\U0001d40b\U0001d414\U0001d413\U0001d408\U0001d40e\U0001d40d in 2 Hours|| Class 10th Board Exam', 'Video Views': '60K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=Prly9d7LoAQ', 'Image Link': 'https://i.ytimg.com/vi/Prly9d7LoAQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIzYvUsJx3fu9nvhvEUNn1RR8iUg', 'Video Title': 'Complete \U0001d5db\U0001d5e2\U0001d5ea \U0001d5d7\U0001d5e2 \U0001d5e2\U0001d5e5\U0001d5da\U0001d5d4\U0001d5e1\U0001d5dc\U0001d5e6\U0001d5e0\U0001d5e6 \U0001d5e5\U0001d5d8\U0001d5e3\U0001d5e5\U0001d5e2\U0001d5d7\U0001d5e8\U0001d5d6\U0001d5d8 in 1 Hours 50 Minutes|| Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=AvwBDiCWSEM', 'Image Link': 'https://i.ytimg.com/vi/AvwBDiCWSEM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDMpZ0M1O---QujzviCqa_O_uybxQ', 'Video Title': 'Complete \U0001d5e2\U0001d5e8\U0001d5e5 \U0001d5d8\U0001d5e1\U0001d5e9\U0001d5dc\U0001d5e5\U0001d5e2\U0001d5e1\U0001d5e0\U0001d5d8\U0001d5e1\U0001d5e7 in 1 Hour 30 Minutes | Class 10th Board Exam', 'Video Views': '43K views', 'Video Date': '8 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:13:11] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:13:11] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:13:11] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBgVolEc_cMuT4WDvGXE-b2_fV5QA', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '53K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDq5HNvB6ace0muPrvybtSDVmggjg', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAe13gpgDTlgtM-acY9fMvsfGMKhg', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5w8CCS5kC9ZpQawOc0Ms78ngsPw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkpwyOypinzsGT2CthXzY1FWFQTA', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=46CNHP9wBAs', 'Image Link': 'https://i.ytimg.com/vi/46CNHP9wBAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBbllHP1ufHU3TR9smCVOALuKj9Kw', 'Video Title': 'Complete \U0001d5d4\U0001d5d6\U0001d5dc\U0001d5d7, \U0001d5d5\U0001d5d4\U0001d5e6\U0001d5d8\U0001d5e6 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5e6\U0001d5d4\U0001d5df\U0001d5e7 in 110 Minutes | Class 10th Board Exam', 'Video Views': '18K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=1Wk5gJtZ2sQ', 'Image Link': 'https://i.ytimg.com/vi/1Wk5gJtZ2sQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7JTaJ5zBH2p9XxVREtIt2SUt44Q', 'Video Title': 'Complete \U0001d5d6\U0001d5db\U0001d5d8\U0001d5e0\U0001d5dc\U0001d5d6\U0001d5d4\U0001d5df \U0001d5e5\U0001d5d8\U0001d5d4\U0001d5d6\U0001d5e7\U0001d5dc\U0001d5e2\U0001d5e1 in 90 Minutes | Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=iM_hVnElC-Q', 'Image Link': 'https://i.ytimg.com/vi/iM_hVnElC-Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJ0W7ngXQmrB1gIlFE1MLr3lT90g', 'Video Title': 'Complete \U0001d407\U0001d404\U0001d411\U0001d404\U0001d403\U0001d408\U0001d413\U0001d418 \U0001d400\U0001d40d\U0001d403 \U0001d404\U0001d415\U0001d40e\U0001d40b\U0001d414\U0001d413\U0001d408\U0001d40e\U0001d40d in 2 Hours|| Class 10th Board Exam', 'Video Views': '60K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=Prly9d7LoAQ', 'Image Link': 'https://i.ytimg.com/vi/Prly9d7LoAQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_XpEzuFyEAlYkpBZSW42sRt0nCA', 'Video Title': 'Complete \U0001d5db\U0001d5e2\U0001d5ea \U0001d5d7\U0001d5e2 \U0001d5e2\U0001d5e5\U0001d5da\U0001d5d4\U0001d5e1\U0001d5dc\U0001d5e6\U0001d5e0\U0001d5e6 \U0001d5e5\U0001d5d8\U0001d5e3\U0001d5e5\U0001d5e2\U0001d5d7\U0001d5e8\U0001d5d6\U0001d5d8 in 1 Hours 50 Minutes|| Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=AvwBDiCWSEM', 'Image Link': 'https://i.ytimg.com/vi/AvwBDiCWSEM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1-ABXlOUn4tiynKqLF8RFH-J19A', 'Video Title': 'Complete \U0001d5e2\U0001d5e8\U0001d5e5 \U0001d5d8\U0001d5e1\U0001d5e9\U0001d5dc\U0001d5e5\U0001d5e2\U0001d5e1\U0001d5e0\U0001d5d8\U0001d5e1\U0001d5e7 in 1 Hour 30 Minutes | Class 10th Board Exam', 'Video Views': '43K views', 'Video Date': '8 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:19:56] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:19:56] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:19:56] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:list index out of range
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:21:12] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWGBtPVQCXcUM1DiCpOeszoKAsQ', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '54K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByRUwFQYHPXlsq0XinNUla0MZtNw', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOhnoOmjXFZyCKcKSm5Q-ZERlrZQ', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxv8xtxXYKf6Zn58zMFt2mqVTTZw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9baY1YtDSZafi5-Ej4K4ehDrL_A', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=46CNHP9wBAs', 'Image Link': 'https://i.ytimg.com/vi/46CNHP9wBAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjvT3nT1waDnGZ0G3r-csPJeQF9w', 'Video Title': 'Complete \U0001d5d4\U0001d5d6\U0001d5dc\U0001d5d7, \U0001d5d5\U0001d5d4\U0001d5e6\U0001d5d8\U0001d5e6 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5e6\U0001d5d4\U0001d5df\U0001d5e7 in 110 Minutes | Class 10th Board Exam', 'Video Views': '18K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=1Wk5gJtZ2sQ', 'Image Link': 'https://i.ytimg.com/vi/1Wk5gJtZ2sQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3qe5Gqbz5v_KD1pUUfRWeb60VHQ', 'Video Title': 'Complete \U0001d5d6\U0001d5db\U0001d5d8\U0001d5e0\U0001d5dc\U0001d5d6\U0001d5d4\U0001d5df \U0001d5e5\U0001d5d8\U0001d5d4\U0001d5d6\U0001d5e7\U0001d5dc\U0001d5e2\U0001d5e1 in 90 Minutes | Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=iM_hVnElC-Q', 'Image Link': 'https://i.ytimg.com/vi/iM_hVnElC-Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLOHeUia6L1Ui7ad9_DkhIAUwI7A', 'Video Title': 'Complete \U0001d407\U0001d404\U0001d411\U0001d404\U0001d403\U0001d408\U0001d413\U0001d418 \U0001d400\U0001d40d\U0001d403 \U0001d404\U0001d415\U0001d40e\U0001d40b\U0001d414\U0001d413\U0001d408\U0001d40e\U0001d40d in 2 Hours|| Class 10th Board Exam', 'Video Views': '60K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=Prly9d7LoAQ', 'Image Link': 'https://i.ytimg.com/vi/Prly9d7LoAQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIzYvUsJx3fu9nvhvEUNn1RR8iUg', 'Video Title': 'Complete \U0001d5db\U0001d5e2\U0001d5ea \U0001d5d7\U0001d5e2 \U0001d5e2\U0001d5e5\U0001d5da\U0001d5d4\U0001d5e1\U0001d5dc\U0001d5e6\U0001d5e0\U0001d5e6 \U0001d5e5\U0001d5d8\U0001d5e3\U0001d5e5\U0001d5e2\U0001d5d7\U0001d5e8\U0001d5d6\U0001d5d8 in 1 Hours 50 Minutes|| Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=AvwBDiCWSEM', 'Image Link': 'https://i.ytimg.com/vi/AvwBDiCWSEM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDMpZ0M1O---QujzviCqa_O_uybxQ', 'Video Title': 'Complete \U0001d5e2\U0001d5e8\U0001d5e5 \U0001d5d8\U0001d5e1\U0001d5e9\U0001d5dc\U0001d5e5\U0001d5e2\U0001d5e1\U0001d5e0\U0001d5d8\U0001d5e1\U0001d5e7 in 1 Hour 30 Minutes | Class 10th Board Exam', 'Video Views': '43K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=jQzKkMEaWFA', 'Image Link': 'https://i.ytimg.com/vi/jQzKkMEaWFA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAK--SsFJUusIA5UXD_ZnnAXmKJQ', 'Video Title': 'Complete \U0001d5d6\U0001d5fc\U0001d5fb\U0001d601\U0001d5ff\U0001d5fc\U0001d5f9 \U0001d5ee\U0001d5fb\U0001d5f1 \U0001d5d6\U0001d5fc\U0001d5fc\U0001d5ff\U0001d5f1\U0001d5f6\U0001d5fb\U0001d5ee\U0001d601\U0001d5f6\U0001d5fc\U0001d5fb in 1 Hours 50 Minutes | Class 10th Board Exam', 'Video Views': '32K views', 'Video Date': '9 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:24:13] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:24:13] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:24:13] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:list index out of range
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:25:38] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:list index out of range
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:28:13] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWGBtPVQCXcUM1DiCpOeszoKAsQ', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '54K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByRUwFQYHPXlsq0XinNUla0MZtNw', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOhnoOmjXFZyCKcKSm5Q-ZERlrZQ', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxv8xtxXYKf6Zn58zMFt2mqVTTZw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9baY1YtDSZafi5-Ej4K4ehDrL_A', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=46CNHP9wBAs', 'Image Link': 'https://i.ytimg.com/vi/46CNHP9wBAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjvT3nT1waDnGZ0G3r-csPJeQF9w', 'Video Title': 'Complete \U0001d5d4\U0001d5d6\U0001d5dc\U0001d5d7, \U0001d5d5\U0001d5d4\U0001d5e6\U0001d5d8\U0001d5e6 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5e6\U0001d5d4\U0001d5df\U0001d5e7 in 110 Minutes | Class 10th Board Exam', 'Video Views': '18K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=1Wk5gJtZ2sQ', 'Image Link': 'https://i.ytimg.com/vi/1Wk5gJtZ2sQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3qe5Gqbz5v_KD1pUUfRWeb60VHQ', 'Video Title': 'Complete \U0001d5d6\U0001d5db\U0001d5d8\U0001d5e0\U0001d5dc\U0001d5d6\U0001d5d4\U0001d5df \U0001d5e5\U0001d5d8\U0001d5d4\U0001d5d6\U0001d5e7\U0001d5dc\U0001d5e2\U0001d5e1 in 90 Minutes | Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=iM_hVnElC-Q', 'Image Link': 'https://i.ytimg.com/vi/iM_hVnElC-Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLOHeUia6L1Ui7ad9_DkhIAUwI7A', 'Video Title': 'Complete \U0001d407\U0001d404\U0001d411\U0001d404\U0001d403\U0001d408\U0001d413\U0001d418 \U0001d400\U0001d40d\U0001d403 \U0001d404\U0001d415\U0001d40e\U0001d40b\U0001d414\U0001d413\U0001d408\U0001d40e\U0001d40d in 2 Hours|| Class 10th Board Exam', 'Video Views': '60K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=Prly9d7LoAQ', 'Image Link': 'https://i.ytimg.com/vi/Prly9d7LoAQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIzYvUsJx3fu9nvhvEUNn1RR8iUg', 'Video Title': 'Complete \U0001d5db\U0001d5e2\U0001d5ea \U0001d5d7\U0001d5e2 \U0001d5e2\U0001d5e5\U0001d5da\U0001d5d4\U0001d5e1\U0001d5dc\U0001d5e6\U0001d5e0\U0001d5e6 \U0001d5e5\U0001d5d8\U0001d5e3\U0001d5e5\U0001d5e2\U0001d5d7\U0001d5e8\U0001d5d6\U0001d5d8 in 1 Hours 50 Minutes|| Class 10th Board Exam', 'Video Views': '27K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=AvwBDiCWSEM', 'Image Link': 'https://i.ytimg.com/vi/AvwBDiCWSEM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDMpZ0M1O---QujzviCqa_O_uybxQ', 'Video Title': 'Complete \U0001d5e2\U0001d5e8\U0001d5e5 \U0001d5d8\U0001d5e1\U0001d5e9\U0001d5dc\U0001d5e5\U0001d5e2\U0001d5e1\U0001d5e0\U0001d5d8\U0001d5e1\U0001d5e7 in 1 Hour 30 Minutes | Class 10th Board Exam', 'Video Views': '43K views', 'Video Date': '8 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=jQzKkMEaWFA', 'Image Link': None, 'Video Title': 'Complete \U0001d5d6\U0001d5fc\U0001d5fb\U0001d601\U0001d5ff\U0001d5fc\U0001d5f9 \U0001d5ee\U0001d5fb\U0001d5f1 \U0001d5d6\U0001d5fc\U0001d5fc\U0001d5ff\U0001d5f1\U0001d5f6\U0001d5fb\U0001d5ee\U0001d601\U0001d5f6\U0001d5fc\U0001d5fb in 1 Hours 50 Minutes | Class 10th Board Exam', 'Video Views': '32K views', 'Video Date': '9 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:29:00] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:29:00] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:29:00] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:33:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:33:13] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:33:13] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWGBtPVQCXcUM1DiCpOeszoKAsQ', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '54K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByRUwFQYHPXlsq0XinNUla0MZtNw', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOhnoOmjXFZyCKcKSm5Q-ZERlrZQ', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxv8xtxXYKf6Zn58zMFt2mqVTTZw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9baY1YtDSZafi5-Ej4K4ehDrL_A', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:33:37] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:33:37] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:33:37] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWGBtPVQCXcUM1DiCpOeszoKAsQ', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '54K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByRUwFQYHPXlsq0XinNUla0MZtNw', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOhnoOmjXFZyCKcKSm5Q-ZERlrZQ', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxv8xtxXYKf6Zn58zMFt2mqVTTZw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9baY1YtDSZafi5-Ej4K4ehDrL_A', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=46CNHP9wBAs', 'Image Link': 'https://i.ytimg.com/vi/46CNHP9wBAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjvT3nT1waDnGZ0G3r-csPJeQF9w', 'Video Title': 'Complete \U0001d5d4\U0001d5d6\U0001d5dc\U0001d5d7, \U0001d5d5\U0001d5d4\U0001d5e6\U0001d5d8\U0001d5e6 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5e6\U0001d5d4\U0001d5df\U0001d5e7 in 110 Minutes | Class 10th Board Exam', 'Video Views': '18K views', 'Video Date': '8 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:39:40] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:39:40] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:39:40] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWGBtPVQCXcUM1DiCpOeszoKAsQ', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '54K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByRUwFQYHPXlsq0XinNUla0MZtNw', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOhnoOmjXFZyCKcKSm5Q-ZERlrZQ', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxv8xtxXYKf6Zn58zMFt2mqVTTZw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9baY1YtDSZafi5-Ej4K4ehDrL_A', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=46CNHP9wBAs', 'Image Link': 'https://i.ytimg.com/vi/46CNHP9wBAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjvT3nT1waDnGZ0G3r-csPJeQF9w', 'Video Title': 'Complete \U0001d5d4\U0001d5d6\U0001d5dc\U0001d5d7, \U0001d5d5\U0001d5d4\U0001d5e6\U0001d5d8\U0001d5e6 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5e6\U0001d5d4\U0001d5df\U0001d5e7 in 110 Minutes | Class 10th Board Exam', 'Video Views': '18K views', 'Video Date': '8 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:42:45] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:42:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:42:45] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDyWGBtPVQCXcUM1DiCpOeszoKAsQ', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '54K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByRUwFQYHPXlsq0XinNUla0MZtNw', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOhnoOmjXFZyCKcKSm5Q-ZERlrZQ', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDxv8xtxXYKf6Zn58zMFt2mqVTTZw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9baY1YtDSZafi5-Ej4K4ehDrL_A', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=46CNHP9wBAs', 'Image Link': 'https://i.ytimg.com/vi/46CNHP9wBAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjvT3nT1waDnGZ0G3r-csPJeQF9w', 'Video Title': 'Complete \U0001d5d4\U0001d5d6\U0001d5dc\U0001d5d7, \U0001d5d5\U0001d5d4\U0001d5e6\U0001d5d8\U0001d5e6 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5e6\U0001d5d4\U0001d5df\U0001d5e7 in 110 Minutes | Class 10th Board Exam', 'Video Views': '18K views', 'Video Date': '8 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:43:47] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:43:47] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:43:47] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:log my final result [{'Web URLs': 'https://www.youtube.com/watch?v=PI1obes98Zc', 'Image Link': 'https://i.ytimg.com/vi/PI1obes98Zc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBgVolEc_cMuT4WDvGXE-b2_fV5QA', 'Video Title': 'How to score 95%+ in class 10th? Complete year Powerful Strategy!!', 'Video Views': '54K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=16fUsD0M1-I', 'Image Link': 'https://i.ytimg.com/vi/16fUsD0M1-I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDq5HNvB6ace0muPrvybtSDVmggjg', 'Video Title': 'Last 4 Days Left For SST Exam || How To Manage to Score 80/80 in Boards || Class-10th', 'Video Views': '60K views', 'Video Date': '1 day ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=S0RySN5arvk', 'Image Link': 'https://i.ytimg.com/vi/S0RySN5arvk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAe13gpgDTlgtM-acY9fMvsfGMKhg', 'Video Title': 'Benefits of Choosing Commerce After 10th | Commerce \u0915\u094d\u092f\u094b\u0902 \u0932\u0947\u0928\u093e \u091a\u093e\u0939\u093f\u090f? | CBSE | ICSE | State Boards', 'Video Views': '24K views', 'Video Date': '5 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=HzBhwxMrt8A', 'Image Link': 'https://i.ytimg.com/vi/HzBhwxMrt8A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5w8CCS5kC9ZpQawOc0Ms78ngsPw', 'Video Title': 'Complete \U0001d5d6\U0001d5d4\U0001d5e5\U0001d5d5\U0001d5e2\U0001d5e1 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5dc\U0001d5e7\U0001d5e6 \U0001d5d6\U0001d5e2\U0001d5e0\U0001d5e3\U0001d5e2\U0001d5e8\U0001d5e1\U0001d5d7\U0001d5e6 in 90 Minutes | Class 10th Board Exam', 'Video Views': '40K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=60_B3haKADw', 'Image Link': 'https://i.ytimg.com/vi/60_B3haKADw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkpwyOypinzsGT2CthXzY1FWFQTA', 'Video Title': 'Complete \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 & \U0001d5e1\U0001d5e2\U0001d5e1 \U0001d5e0\U0001d5d8\U0001d5e7\U0001d5d4\U0001d5df\U0001d5e6 in 120 Minutes | Class 10th Board Exam', 'Video Views': '21K views', 'Video Date': '7 days ago'}, {'Web URLs': 'https://www.youtube.com/watch?v=46CNHP9wBAs', 'Image Link': 'https://i.ytimg.com/vi/46CNHP9wBAs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFTyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBbllHP1ufHU3TR9smCVOALuKj9Kw', 'Video Title': 'Complete \U0001d5d4\U0001d5d6\U0001d5dc\U0001d5d7, \U0001d5d5\U0001d5d4\U0001d5e6\U0001d5d8\U0001d5e6 \U0001d5d4\U0001d5e1\U0001d5d7 \U0001d5e6\U0001d5d4\U0001d5df\U0001d5e7 in 110 Minutes | Class 10th Board Exam', 'Video Views': '18K views', 'Video Date': '8 days ago'}]
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:44:40] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:44:40] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2023 19:44:40] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
